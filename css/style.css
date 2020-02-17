@@ -1,6 +1,6 @@
 body {
-    width: 700px;
-    max-width: 100%;
+    max-width: 700px;
+    width: 80vw;
     margin: auto;
     font-family: 'IBM Plex Serif', serif;
     background-image: linear-gradient(to right, darkmagenta, black, darkmagenta);
@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h4 {
-    margin: 1px;
+    margin: 2rem 1px 5px 1px;
 }
 
 h5 {
@@ -100,6 +100,10 @@ article {
     border-left: 8px solid rgba(100,0,100,0.8);
     border-top: 4px solid rgba(100,0,100,0.8);
     border-bottom: 8px solid rgba(100,0,100,0.8);
+}
+
+li p {
+    margin: 1px;
 }
 
 #resumebox4 {
@@ -255,9 +259,8 @@ th, td {
     padding: 0 0 0 20px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 560px) {
     body {
-        max-width: 300px;
         margin: auto;
         font-size: 70%;
     }
