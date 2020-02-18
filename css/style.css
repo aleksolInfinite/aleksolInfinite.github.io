@@ -1,6 +1,5 @@
 body {
-    max-width: 700px;
-    width: 80vw;
+    width: 700px;
     margin: auto;
     font-family: 'IBM Plex Serif', serif;
     background-image: linear-gradient(to right, darkmagenta, black, darkmagenta);
@@ -10,6 +9,7 @@ body {
 main {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 section {
     padding: 1rem 2rem;
@@ -69,6 +69,7 @@ article {
     background-color: rgba(0,0,0,0.5);
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 #resumecontent section {
@@ -258,10 +259,38 @@ th, td {
 #projects ul {
     padding: 0 0 0 20px;
 }
+#game_media ul {
+    width: 600px;
+    list-style-type: none;
+    padding: 0;
+}
 
-@media (max-width: 560px) {
-    body {
-        margin: auto;
-        font-size: 70%;
-    }
+li h4 {
+    margin: 2rem auto 1px auto;
+}
+video {
+    width: 600px;
+    display: flex;
+    margin: 1rem auto;
+    max-width: 100%;
+    volume: medium;
+}
+
+#game_imgs img{
+    border: grey 1px solid;
+}
+
+#game_imgs{
+    margin: 1rem auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#game_imgs li {
+    width: 50%;
+}
+
+figure {
+    margin: 0;
 }

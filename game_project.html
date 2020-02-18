@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|IBM+Plex+Serif&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="lightbox2-2.11.1/dist/css/lightbox.css" rel="stylesheet" />
     <title>Aleksi Laine</title>
 </head>
 <body>
-<script src="js/head.js"></script>
 <main>
     <article>
         <section>
-            <header><h2>Unity Game Project</h2></header>
+            <header>
+                <img src="img/scavsplash.png">
+                <h2>Unity Game Project</h2></header>
             <p>
                 This project was a school assignment, made over a period of three weeks in a group of three. It was my first time programming a game, writing C# and working with Unity.
                 It is based on a tutorial project from Unity's "Learn"-platform, but 80% of the code is originally written by myself,
@@ -116,10 +118,90 @@
         <section>
             <header><h3>The Code</h3></header>
             <p>
-                Here is a <a id="game_github" href="https://github.com/aleksolInfinite/Scavenger/releases/latest" target="_blank">link to all of the scripts on GitHub</a>.
+                Here is a <a id="game_github" href="https://github.com/aleksolInfinite/Scavenger/releases/latest" target="_blank">link to scripts on GitHub</a>.
                 By estimate 10% of the code was written by following the original tutorial. The rest of it is written from scratch by myself
                 or heavily edited from the original.
             </p>
+        </section>
+        <section id="game_media">
+            <header><h3>Gallery</h3></header>
+            <ul id="game_videos">
+                <li><h4>Scavenger Summarised</h4>
+                    <video controls muted poster="img/videoph.png">
+                        <source src="vids/Summary.mp4" type="video/mp4">
+                    Video not supported by your browser, sorry.
+                </video>
+                </li>
+                <li><h4>Weapon showcase: Bomb</h4>
+                    <video controls muted poster="img/videoph.png">
+                        <source src="vids/Bomb.mp4" type="video/mp4">
+                    Video not supported by your browser, sorry.
+                </video>
+            </li>
+                <li><h4>Weapon showcase: Crossbow</h4>
+                    <video controls muted poster="img/videoph.png">
+                        <source src="vids/Bow.mp4" type="video/mp4">
+                    Video not supported by your browser, sorry.
+                </video>
+            </li>
+                <li><h4>Weapon showcase: Pistol</h4>
+                    <video controls muted poster="img/videoph.png">
+                        <source src="vids/Pistol.mp4" type="video/mp4">
+                    Video not supported by your browser, sorry.
+                </video>
+            </li>
+                <li><h4>Weapon showcase: Rifle</h4>
+                <video controls muted poster="img/videoph.png">
+                    <source src="vids/Rifle.mp4" type="video/mp4">
+                    Video not supported by your browser, sorry.
+                </video>
+            </li>
+            </ul>
+            <h4>Images</h4>
+            <ul id="game_imgs">
+                <li>
+                    <figure>
+                        <a href="img/TitleScreen.jpg" data-lightbox="ScavengerPics">
+                            <img src="img/TitleScreen_thumb.jpg">
+                        </a>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="img/StoryScreen.jpg" data-lightbox="ScavengerPics">
+                            <img src="img/StoryScreen_thumb.jpg">
+                        </a>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="img/Day1.jpg" data-lightbox="ScavengerPics">
+                            <img src="img/Day1_thumb.jpg">
+                        </a>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="img/Day10.jpg" data-lightbox="ScavengerPics">
+                            <img src="img/Day10_thumb.jpg">
+                        </a>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="img/PistolBlood.jpg" data-lightbox="ScavengerPics">
+                            <img src="img/PistolBlood_thumb.jpg">
+                        </a>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="img/Mayhem.jpg" data-lightbox="ScavengerPics">
+                            <img src="img/Mayhem_thumb.jpg">
+                        </a>
+                    </figure>
+                </li>
+            </ul>
         </section>
     </article>
 </main>
@@ -137,6 +219,7 @@
         </ul>
     </section>
 </footer>
-
+<script src="js/head.js"></script>
+<script src="lightbox2-2.11.1/dist/js/lightbox-plus-jquery.js"></script>
 </body>
 </html>
