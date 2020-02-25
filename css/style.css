@@ -268,12 +268,11 @@ th, td {
 li h4 {
     margin: 2rem auto 1px auto;
 }
-video {
-    width: 600px;
+iframe {
+    width: 560px;
+    height: 315px;
     display: flex;
     margin: 1rem auto;
-    max-width: 100%;
-    volume: medium;
 }
 
 #game_imgs img{
@@ -293,4 +292,8 @@ video {
 
 figure {
     margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+figure a{
 }

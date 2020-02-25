@@ -26,7 +26,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/Ohjelmistotuotantokotisivu" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -44,6 +56,8 @@
       <workItem from="1582043008217" duration="1023000" />
       <workItem from="1582139088889" duration="75000" />
       <workItem from="1582145870910" duration="58000" />
+      <workItem from="1582617818512" duration="39000" />
+      <workItem from="1582620765465" duration="14000" />
     </task>
     <servers />
   </component>
@@ -51,9 +65,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1582037082974">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="592" y="219" key="FileChooserDialogImpl" timestamp="1582620776896">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="592" y="219" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582620776896" />
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582037082974" />
     <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582145916147">
       <screen x="0" y="0" width="1920" height="1040" />
