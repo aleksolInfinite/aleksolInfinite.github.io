@@ -14,8 +14,21 @@
     <article>
         <section>
             <header>
+                <h2>
+                    Unity 2D Projects
+                </h2>
+            </header>
+            <ul>
+                <li><a href="#Scav">Roguelike Dungeon Survival</a></li>
+                <li><a href="#SI">Space Invaders Copy</a></li>
+            </ul>
+        </section>
+    </article>
+    <article>
+        <section id="Scav">
+            <header>
                 <img src="img/scavsplash.png">
-                <h2>Unity Game Project</h2></header>
+                <h2>Scavenger - Unity 2D Dungeon Roguelike</h2></header>
             <p>
                 This project was a school assignment, made over a period of three weeks in a group of three. It was my first time programming a game, writing C# and working with Unity.
                 It is based on a tutorial project from Unity's "Learn"-platform, but 80% of the code is originally written by myself,
@@ -119,7 +132,7 @@
             <header><h3>The Code</h3></header>
             <p>
                 Here is a <a id="game_github" href="https://github.com/aleksolaine/Scavenger/releases/latest" target="_blank">link to scripts on GitHub</a>.
-                By estimate 10% of the code was written by following the original tutorial. The rest of it is written from scratch by myself
+                Approximately 10% of the code was put together following the original tutorial. The rest of it is written from scratch by myself
                 or heavily edited from the original.
             </p>
         </section>
@@ -179,6 +192,43 @@
             </ul>
         </section>
     </article>
+    <br>
+    <br>
+    <article>
+        <section id="SI">
+            <header>
+                <img src="img/SplashLogo.png">
+                <h2>Space Invaders Copy</h2></header>
+            <p>
+                Another school project, that I completed solo in approximately two weeks. The aim was to create a modern copy of the
+                classic Space Invaders. Though very simplistic, I can proudly say I made 100% of this game's art myself.
+                <br>
+                <br>
+                <img src="img/SpaceInvadersGameplay.png" style="width: 600px">
+            </p>
+        </section>
+        <section>
+            <header>
+                <h3>Functionality</h3></header>
+            <p>
+                Space Invaders itself probably doesn't need long introductions, so I'll keep it brief and explain what functionality
+                I implemented in my version.
+            </p>
+                Game has a main menu with procedurally moving sprites in the background. From the menus you can choose/make
+                your player account and adjust volumes. The gameplay itself has all the familiar elements, such as attackers'
+                movement speed increasing as their numbers get lower, as well as protective barriers that get destroyed by
+                both enemies and player. Also included are the bonus point ships with a sound cue telling player to pay attention to them.
+            <p>
+                Additional mechanics in my version include enemies with different health. Enemies higher in the stack take 2 or
+                3 hits to explode and change color to indicate their health. Also a new mechanic is a time bonus per level,
+                rewarding the player for clearing levels as quickly as they can.
+            </p>
+            <p>
+                Faithfully for the arcade genre, I implemented a score system, where every local player can make their own
+                user and try to get their name on the leaderboard. Scores are saved locally in an SQL-database.
+            </p>
+        </section>
+    </article>
 </main>
 <footer>
     <section class="contact">
@@ -188,7 +238,7 @@
             </h3>
         </header>
         <ul>
-            <li>050 407 9066</li>
+            <li>+358 50 407 9066</li>
             <li>aleksi.laine@metropolia.fi</li>
             <li>Tilanhoitajankaari 11 C 79<br>00790 Helsinki</li>
         </ul>

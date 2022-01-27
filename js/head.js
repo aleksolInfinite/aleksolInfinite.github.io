@@ -13,7 +13,7 @@ header.innerHTML += `
                 <a href="index.html">ALEKSI LAINE</a>
             </h1>
             <h2>
-                Student Game Programmer
+                Game Programmer
             </h2>
         </div>
     </header>
@@ -21,8 +21,8 @@ header.innerHTML += `
     <div class="linkrow">
         <a href="index.html">Home</a>
         <a href="resume.html ">Resume</a>
-        <a href="game_project.html">Unity Game</a>
-        <a href="med_app.html">Android App</a>
+        <a href="3D_game.html">3D Adventure RPG</a>
+        <a href="game_project.html">Unity 2D Games</a>
     </div>
 
 </div>`;

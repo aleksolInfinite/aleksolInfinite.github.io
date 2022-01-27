@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|IBM+Plex+Serif&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="lightbox2-2.11.1/dist/css/lightbox.css" rel="stylesheet" />
+    <title>Aleksi Laine</title>
+</head>
+<body>
+<main>
+    <article>
+        <section>
+            <header>
+                <h2>
+                    3D Adventure RPG Project
+                </h2>
+            </header>
+            <p>
+                The project was initiated in 2020 by the frontman of Finnish rock band Waltari to promote Finnish culture and history.
+                A group of students and professionals from different fields was quickly built. In the spring of
+                2021 this group approached Metropolia in search of game programmers, which is where I joined in. We formed
+                a group of game developer students to work on the project's first proof of concept using Unity, which was
+                what we knew the best at the time. We spent approximately 5 months working on the proof of concept, which
+                was then used to make the first privately shared marketing materials. After that was completed, we made the
+                decision to experiment with Unreal Engine to make the next prototype. We worked on this next prototype for 3
+                months and found Unreal Engine to be better suited for our needs.
+            </p>
+            <p>
+                Since the start of our Unity phase I have acted as a lead programmer, writing code in both C# in Unity and
+                C++ in Unreal Engine. Other than programming, my main responsibility has been characters and gameplay mechanics.
+                This includes AI, abilities, player movement, animation logic, different stats for characters etc.
+            </p>
+            <ul>
+                <li><a href="#UE">Latest Prototyping in Unreal Engine</a></li>
+                <li><a href="#Unity">Earlier Unity Proof of Concept</a></li>
+            </ul>
+        </section>
+    </article>
+    <article>
+        <section id="UE">
+            <header>
+                <h2>
+                    Prototype in Unreal Engine
+                </h2>
+            </header>
+            <section id="game_media">
+                <h4>Playthrough of the Prototype</h4>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CJM9Rd-cD_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <p>
+                Our prototype in UE4 was to be a single, simple dungeon, where we could do combat testing. Obviously we
+                were all new to Unreal and relatively new to game development, so we didn't expect to get it perfect first try.
+                And we didn't, but we reached the aim of having a baseline build which we could test and learn what to do better.
+            </p>
+            <p>
+                For the prototype's 3D models we had help from three Metropolia students. They made our characters and weapons,
+                as well as some 2D-art.
+                The environment was made by our environment artist using the Megascans assets. Visual effects
+                were made by another member of the group. I was responsible for programming and all gameplay mechanics.
+            </p>
+            <header>
+                <h3>Abilities</h3>
+            </header>
+            <p>
+                The prototype includes a comprehensive ability system, with 8 different player abilities that combine together
+                to strengthen and weaken each other. These abilities were accompanied by basic melee and ranged combos.
+                All combat used resources from three gauges: Health, Spirit and Ultimate. Health was obviously needed to stay
+                alive, but could be drained to use Spirit abilities more effectively. Spirit gauge was our version of a
+                traditional "Mana" gauge. If the player drained it too far, it started draining health also. Ultimate gauge
+                was used for an ultimate attack, but could also be used for healing the player.
+            </p>
+            <p>
+                Since the beginning of the process, my aim was to program the abilities in a way, that would make it easy to
+                create new abilities in the editor. This I feel I succeeded in, and our planned abilities could be
+                created in just a few minutes per ability, and all of their stats modified during testing.
+            </p>
+            <header>
+                <h3>Stances</h3>
+            </header>
+            <p>
+                To accompany our complex abilities, we designed two stances. The default stance is the damage dealing
+                stance, where your abilities are the most effective, but quickly drain your spirit gauge. To recover spirit
+                gauge, the player needed to switch to spirit stance, where abilities weren't as hard hitting, but rather defensive.
+                In this stance spirit gauge replenishes automatically, but also parries and well timed dodges can be used to
+                speed up the gauge gains.
+            </p>
+            <header>
+                <h3>My Experience</h3>
+            </header>
+            <p>
+                Working with Unreal Engine taught me new ways of programming and I'm excited to learn more. Moving forward,
+                I will strive to be more organised and keep code separated in modules to make editing safer. This is something
+                I've already clearly improved in since the early Unity days, but there's a long way to go still.
+            </p>
+        </section>
+        <section id="Unity">
+            <header>
+                <h2>
+                    First Proof of Concept in Unity
+                </h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6lAyW3sGbP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </header>
+            <p>
+                This proof of concept was simply put together to be able to make a video showcasing our intentions. This
+                Unity version was made before the Unreal one, but by the same people, with me in the same role of programming
+                and gameplay mechanics. We lacked any 3D-artists for this project though, so all 3D-art is from free asset packs.
+            </p>
+            <p>
+            </p>
+        </section>
+    </article>
+</main>
+<footer>
+    <section class="contact">
+        <header>
+            <h3>
+                Contact
+            </h3>
+        </header>
+        <ul>
+            <li>+358 50 407 9066</li>
+            <li>aleksi.laine@metropolia.fi</li>
+            <li>Tilanhoitajankaari 11 C 79<br>00790 Helsinki</li>
+        </ul>
+    </section>
+</footer>
+<script src="js/head.js"></script>
+<script src="lightbox2-2.11.1/dist/js/lightbox-plus-jquery.js"></script>
+</body>
+</html>
