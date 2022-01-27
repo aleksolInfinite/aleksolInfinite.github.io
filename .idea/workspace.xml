@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25af8a47-6b77-427c-afea-304f8ce54cbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3D_game.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/SI_Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/SpaceInvadersGameplay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/SpaceInvadersMainMenu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/SplashLogo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_project.html" beforeDir="false" afterPath="$PROJECT_DIR$/game_project.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/head.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/head.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +72,15 @@
       <workItem from="1582620765465" duration="14000" />
       <workItem from="1584350551739" duration="633000" />
       <workItem from="1611210659519" duration="649000" />
-      <workItem from="1643278728614" duration="9814000" />
+      <workItem from="1643278728614" duration="10753000" />
     </task>
+    <task id="LOCAL−00001" summary="1/2022 version">
+      <created>1643301971203</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1643301971203</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,11 +88,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="1/2022 version" />
+    <option name="LAST_COMMIT_MESSAGE" value="1/2022 version" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1015" y="512" key="CommitChangelistDialog2" timestamp="1643301914771">
+    <state x="-1015" y="512" key="CommitChangelistDialog2" timestamp="1643301969995">
       <screen x="-1280" y="425" width="1280" height="984" />
     </state>
-    <state x="-1015" y="512" key="CommitChangelistDialog2/0.0.2560.1400/-1280.425.1280.984@-1280.425.1280.984" timestamp="1643301914771" />
+    <state x="-1015" y="512" key="CommitChangelistDialog2/0.0.2560.1400/-1280.425.1280.984@-1280.425.1280.984" timestamp="1643301969995" />
   </component>
 </project>
